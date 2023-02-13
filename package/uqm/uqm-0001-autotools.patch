@@ -8717,7 +8717,7 @@ diff -Naur uqm-0.8.0.orig/configure.ac uqm-0.8.0/configure.ac
 +
 +CFLAGS="-g -O0 -W -Wall"
 +CPPFLAGS="$CPPFLAGS $SDL_CFLAGS $VORBIS_CFLAGS -Ilibs/"
-+LDFLAGS="-L/usr/lib/x86_64-linux-gnu -lm -lSDL -ldl -pthread -lz -lvorbis -lpng -lvorbisfile -ldl -lSDL -lz $LDFLAGS"
++LDFLAGS="-lm -lSDL -ldl -pthread -lz -lvorbis -lpng -lvorbisfile -ldl -lSDL -lz $LDFLAGS"
 +AC_OUTPUT
 diff -Naur uqm-0.8.0.orig/depcomp uqm-0.8.0/depcomp
 --- uqm-0.8.0.orig/depcomp	1969-12-31 16:00:00.000000000 -0800
