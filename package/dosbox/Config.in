@@ -1,0 +1,9 @@
+config BR2_PACKAGE_DOSBOX
+    bool "dosbox"
+    select BR2_PACKAGE_SDL
+    select BR2_PACKAGE_SDL_SOUND
+    select BR2_TOOLCHAIN_BUILDROOT_CXX
+    help
+        DOSBox x86 emulator.
+        
+        https://www.dosbox.com
