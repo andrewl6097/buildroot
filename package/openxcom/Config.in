@@ -1,0 +1,11 @@
+config BR2_PACKAGE_OPENXCOM
+    bool "openxcom"
+    select BR2_PACKAGE_SDL
+    select BR2_PACKAGE_SDL_MIXER
+    select BR2_PACKAGE_SDL_GFX
+    select BR2_PACKAGE_SDL_IMAGE
+    select BR2_PACKAGE_YAML_CPP
+    help
+        OpenXcom
+        
+        https://openxcom.org/
