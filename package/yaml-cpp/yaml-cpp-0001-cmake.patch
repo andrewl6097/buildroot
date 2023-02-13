@@ -1,0 +1,12 @@
+diff -Naur yaml-cpp-yaml-cpp-0.7.0.orig/CMakeLists.txt yaml-cpp-yaml-cpp-0.7.0/CMakeLists.txt
+--- yaml-cpp-yaml-cpp-0.7.0.orig/CMakeLists.txt	2021-07-10 08:53:22.000000000 -0700
++++ yaml-cpp-yaml-cpp-0.7.0/CMakeLists.txt	2023-02-12 23:06:40.000000000 -0800
+@@ -7,7 +7,7 @@
+   cmake_policy(SET CMP0091 NEW)
+ endif()
+ 
+-project(YAML_CPP VERSION 0.7.0 LANGUAGES CXX)
++project(YAML_CPP VERSION 0.7.0)
+ 
+ include(CMakePackageConfigHelpers)
+ include(CMakeDependentOption)
